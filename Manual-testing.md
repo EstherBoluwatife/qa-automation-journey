@@ -171,10 +171,33 @@ Status: Pass
 
 
 Test Case ID: TC008
-Title:  Verify 
+Title:  Verify product images on display correctly when logged in with problem_user
 
+Precondition: User is on Login page
+
+Test Data: 
+Username: problem_user
+Password: secret_sauce
+
+Steps:
+1. Enter "problem_sauce" in the Username field
+2. Enter "secret_sauce" in the Password field
+3. Click the Login button
+4. Observe the product images displayed on the inventory page.
+
+
+Expected Result: 
+All product images should display coeectly and correspond to their respective product descriptions. 
+
+Actual Result: 
+Product images are displayed incorrectly and do not correspond to their respective product descriptions.
+
+Status: 
+Fail
+
+Test Case ID: TC00
+Title:  
 Precondition: 
-
 Test Data: 
 Username: 
 Password: 
@@ -182,9 +205,7 @@ Password:
 Steps:
 1. 
 
-
 Expected Result: 
-
 
 Actual Result: 
 
